@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <html lang="ja">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Document</title>
+     <title>建ぺい率</title>
+     <script>
+      alert('建ぺい率');
+      var building = prompt("建物面積の値を入力してください");
+      var site = prompt("敷地面積 の値を入力してください");
+      document.write("入力  建物面積 = " + building + ":  敷地面積 = " + site + "<br />");
+      document.write('建ぺい率は'+ building/site*100 +'％' + "<br />");
+      alert('容積率')
+      var building1 = parseInt(prompt("１階の床面積の値を入力してください"));
+      var building2 = parseInt(prompt("２階の床面積の値を入力してください"));
+      var site1 = prompt("敷地面積 の値を入力してください");
+      document.write("入力  一階の床面積 = " + building1 + ":  二階の床面積 = " + building2 + ": 敷地面積 =" + site1 + "<br />");
+      document.write('容積率は'+ (building1+building2)/site1*100 +'％')
+     </script>
+    </head>
+    <body>
+        <h1>建ぺい率</h1>
+        <p>
+            「ある土地（敷地）の面積と、そこに建築された建物面積の割合」のこと。
+            <img src="kenpeiritsu.jpg" alt="建ぺい率"/>
+        </p>
+    </body>
+  </html>
