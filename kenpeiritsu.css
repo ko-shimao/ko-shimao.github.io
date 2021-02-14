@@ -1,0 +1,11 @@
+h1{
+   color:darkgreen;
+   background-color:aquamarine;
+   font-size:32px;
+   padding:16px;
+}
+img{
+    width:900px;
+    height:500px;
+    border:8px solid gray;
+}
